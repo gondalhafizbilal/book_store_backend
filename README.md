@@ -30,7 +30,7 @@ Welcome to our Book Ordering System! This project focuses on the customer experi
 ## API Documentation
 
 The documentation for all the API endpoints for this project is given in this link:
-`https://documenter.getpostman.com/view/30786042/2s9YeN39W7`
+[Api Docs](https://documenter.getpostman.com/view/30786042/2s9YeN39W7)
 
 ## Assumptions
 
