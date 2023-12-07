@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "start": "cross-env NODE_ENV=development && npm run db:migrate && npm run dev",
+    "start": "cross-env NODE_ENV=development && npm run build && npm run dev",
     "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\"",
     "db:migrate": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
   },
