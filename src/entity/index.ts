@@ -7,9 +7,9 @@ const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || "development";
 let config;
 try {
-  config = require(__dirname + "/../config/config.js")[env];
+  config = require(__dirname + "/../../db/config/config.js")[env];
 } catch (error) {
-  config = require(__dirname + "/../config/config.ts")[env];
+  config = require(__dirname + "/../../db/config/config.ts")[env];
 }
 
 const db: any = {};

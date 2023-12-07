@@ -1,4 +1,4 @@
-import db from "../entity/models";
+import db from "../entity";
 
 const { Book } = db;
 

@@ -1,4 +1,4 @@
-import db from "../entity/models";
+import db from "../entity";
 import { Customer } from "../types/customerTypes";
 
 const { Customer } = db;

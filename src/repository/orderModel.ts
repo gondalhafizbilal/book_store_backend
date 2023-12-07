@@ -1,4 +1,4 @@
-import db from "../entity/models";
+import db from "../entity";
 import { Order } from "../types/orderTypes";
 const { QueryTypes } = require("sequelize");
 
